@@ -1,19 +1,30 @@
-<h1>Reveal: A jQuery Plugin For Modals</h1>
-<p>Reveal is a jQuery plugin for dead simple modals that comes with some sexy base CSS and can be implemented programatically or with the new HTML5 custom data attributes (data-attribute).</p>
+<div>
+<section>
+      <h2>Step 1: Attach Needed Files</h2>
+      <script type="text/javascript" src="http://snipt.net/embed/5392cac07bc6cd36b10629561124ca68"></script>  
+    </section>
 
-<p><strong>Note: This version of Reveal has been deprecated and will no longer be developed or supported. For the most recent code, check out the responsive version of Reveal included in <a href="http://foundation.zurb.com">Foundation</a>, our rapid prototyping and production framework.</p>
+    <section>
+      <h2>Step 2: The Modal Markup</h2>
+      <script type="text/javascript" src="http://snipt.net/embed/3bc5dfa546b4780472545eb8fea109f6"></script>
+    </section>
 
-<h3>Download & Documentation </h3>
-<p>All of the docs and the download link are on a playground page here: <a href="http://www.zurb.com/playground/reveal-modal-plugin">http://www.zurb.com/playground/reveal-modal-plugin</a></p>
+    <section>
+      <h2>Step 3: Attaching Your Handler</h2>
+      <script type="text/javascript" src="http://snipt.net/embed/a7a11463256a8e55e13ab69feadfa9d0"></script>
+      <p>By putting the "data-reveal-id" attribute on the anchor, when clicked the plugin matches the value of the "data-reveal-id" attribute (in this case "myModal") with an HTML element with that ID.</p>
+      <p class="lead">Basically, put the "data-reveal-id" attribute on an object and make it's value the ID of your modal.</p>
+      
+      <p>While the "data-reveal-id" is an awesome way to make firing a modal stupid-easy, <strong>in many cases developers will still need to be fired programatically.</strong> That's easy enough too...</p>
+    </section>
 
-<h3>Feature Request List</h3>
-<p>Below are the features that have been requested or that we have seen an opportunity for and are going to try to tackle in future iterations of the plugin (in no particular order). These will, if implemented, be added to the plugin as part of Foundation.</p>
+    <section>
+      <h2>Options</h2>
+      <p>Every good plugin has options, and this one has just a few, but important ones:</p>
+      <script type="text/javascript" src="http://snipt.net/embed/d497a8f659e1c610f6ce1a48e8669105"></script>
+      <p><strong>Wondering how to use the options when you're using the "data-reveal-id" implementation</strong>? Basically take the option and add the "data-" before and pass a valid value. Here is it with default values:</p>
+      <script type="text/javascript" src="http://snipt.net/embed/34db731ca7ab2b9eabe5ac5dd381ea28"></script>
+    </section>
 
-<ul>
-<li>Callable method for closing a modal</li>
-<li>Have close button close "all active modals" (if multiple modals are somehow surfaced)</li>
-<li>Keyboard close with esc key</li>
-<li>Document easy way to AJAX modal content</li>
-<li>Add lightbox feature to make it easy to hookup custom data attributes to a lightbox functionality </li>
-<li>Fix IE background to have opacity</li>
-</ul>
+    <p class="lead">The Reveal plugin is licensed to use and abuse under the MIT license. Ballin!</p>
+</div>
