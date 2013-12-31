@@ -38,18 +38,19 @@ While the "data-reveal-id" is an awesome way to make firing a modal stupid-easy,
 Every good plugin has options, and this one has just a few, but important ones:
 
 ```JavaScript
-    $('#myModal').reveal({
-    animation: 'fadeAndPop',                   //fade, fadeAndPop, none
-    animationspeed: 300,                       //how fast animtions are
-    closeonbackgroundclick: true,              //if you click background will modal close?
-    dismissmodalclass: 'close-reveal-modal'    //the class of a button or element that will close an open modal
+$('#myModal').reveal({
+  animation: 'fadeAndPop',                   //fade, fadeAndPop, none
+  animationspeed: 300,                       //how fast animtions are
+  closeonbackgroundclick: true,              //if you click background will modal close?
+  dismissmodalclass: 'close-reveal-modal'    //the class of a button or element that will close an open modal
  });
 ```
 
 **Wondering how to use the options when you're using the "data-reveal-id" implementation**? Basically take the option and add the "data-" before and pass a valid value. Here is it with default values:
 
 ```html
-<a href="#" data-reveal-id="myModal" data-animation="fadeAndPop" data-animationspeed="300" data-closeonbackgroundclick="true" data-dismissmodalclass="close-reveal-modal">Click for a modal</a>
+<a href="#" data-reveal-id="myModal" data-animation="fadeAndPop" data-animationspeed="300" 
+data-closeonbackgroundclick="true" data-dismissmodalclass="close-reveal-modal">Click for a modal</a>
 ```
 
 The Reveal plugin is licensed to use and abuse under the MIT license. Ballin!
